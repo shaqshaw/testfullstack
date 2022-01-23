@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import BasePage from '../../../../components/BasePage/index.js';
-import BasePageContext from '../../../../components/BasePage/BasePageContext.js'
+import BasePage from '../../../components/BasePage/index.js';
+import BasePageContext from '../../../components/BasePage/BasePageContext.js'
 
 export const Auth =()=>{
     const isAuthenticated = useContext(BasePageContext);

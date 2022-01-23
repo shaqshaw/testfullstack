@@ -3,8 +3,8 @@ import { BrowserRouter, Route} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from './actions';
 
-import Landing from './apps/staticweb/pages/landing/index.js';
-import LogInSignUp from './apps/loginweb/pages/auth/index.js';
+import Landing from './apps/staticweb/landing/index.js';
+import LogInSignUp from './apps/loginweb/auth/index.js';
 import Account from './apps/loginweb/account/index.js';
 
 /* Group1 Routes */
@@ -13,7 +13,7 @@ import Account from './apps/loginweb/account/index.js';
 
 
 /* StaticWeb */
-import About from './apps/staticweb/pages/about/index.js';
+import About from './apps/staticweb/about/index.js';
 
 class App extends Component{
 
@@ -31,12 +31,12 @@ class App extends Component{
                         <Route exact path="/account" component = {Account} />
 
                         {/* Group1 Routes */}
-                        <Route exact path="/blah" component = {} />
-                        <Route path="/blah/blah" component = {} />
+                        {/* <Route exact path="/blah" component = {} />
+                        <Route path="/blah/blah" component = {} /> */}
 
 
                         {/* Group2 Routes */}
-                        <Route exact path="/blahblah" component = {} />
+                        {/* <Route exact path="/blahblah" component = {} /> */}
 
                         {/* Static Routes */}
                         <Route exact path="/about" component = {About} />

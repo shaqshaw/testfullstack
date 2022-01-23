@@ -1,7 +1,7 @@
 import React from 'react';
-import BasePage from '../../../../components/BasePage/index.js';
+import BasePage from '../../../components/BasePage/index.js';
 //import StockPhoto from '../../../../assets/stockphoto.jpeg';
-import { tertiaryTheme } from '../../../../styling/index.js';
+import { tertiaryTheme } from '../../../styling/index.js';
 import CTA from './components/CTA/index';
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import BasePage from '../../../../components/BasePage/index.js';
+import BasePage from '../../../components/BasePage/index.js';
 import MissionBlock from './components/MissionBlock';
 
 export const About =()=>{
